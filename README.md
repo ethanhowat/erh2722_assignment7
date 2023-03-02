@@ -95,5 +95,7 @@ Points Per Game:
 -3-Point field goals did not exist, and therefore were not recorded, before the 1979-80 season
 
 -Some noise remains in the "Player" column
+
+-no tangible biases
 ### data.world link:
 https://data.world/ethanhowat/nba-scoring-leaders
