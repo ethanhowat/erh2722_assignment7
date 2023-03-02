@@ -49,3 +49,4 @@ Total Points
 Points Per Game
   -decimal
   -The points per game averaged by the scoring leader in that season
+## Issues and Notes:
