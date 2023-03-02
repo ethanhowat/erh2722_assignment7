@@ -92,7 +92,7 @@ Points Per Game:
   
   -The points per game averaged by the scoring leader in that season
 ### Issues and Notes:
--3-Point field goals did not exist, and therefore were not counted, before the 1979-80 season
+-3-Point field goals did not exist, and therefore were not recorded, before the 1979-80 season
 
 -Some noise remains in the "Player" column
 ### data.world link:
