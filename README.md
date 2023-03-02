@@ -3,7 +3,7 @@
 ### Goal:
 The goal of this project was to find trends or influencing factors of NBA scoring leaders by extracting and analyzing data.
 ### Source Data:
-https://en.wikipedia.org/wiki/List_of_National_Basketball_Association_career_scoring_leaders
+https://en.wikipedia.org/wiki/List_of_National_Basketball_Association_annual_scoring_leaders
 ### License:
 MIT License
 ### API Documentation:
@@ -28,63 +28,72 @@ Season:
   -The NBA season, comprised of two years
    ex. 2001-02
 
-Player
+Player:
   
   -string
   
   -The name of the player that was the scoring leader in that season
+  
+  -Asterisks indicate multiple scoring titles
+  
+  -Numbers in parenthesis indicated the player's title number of scoring titles
 
-Age
+Age:
   
   -integer
   
   -How old the player was when they were the scoring leader
 
-Position
+Position:
   
   -string
   
   -The basketball position played by the scoring leader
 
-Team
+Team:
   
   -string
   
   -All teams that the scoring leader has played for
 
-Games Played
+Games Played:
   
   -integer
   
   -The number of games played by the scoring leader in that season.
 
-Field Goals Made
+Field Goals Made:
   
   -integer
   
   -The number of shots made by the scoring leader in that season
 
-3-Point Field Goals Made
+3-Point Field Goals Made:
   
   -integer
   
   -The number of 3 point shots made by the scoring leader in that          season
 
-Free Throws Made
+Free Throws Made:
   
   -integer
   
   -The number of free throw shots made by the scoring leader in that season
 
-Total Points
+Total Points:
   
   -integer
   
   -The total points scored by the scoring leader in that season
 
-Points Per Game
+Points Per Game:
   
   -decimal
   
   -The points per game averaged by the scoring leader in that season
 ### Issues and Notes:
+-3-Point field goals did not exist, and therefore were not counted, before the 1979-80 season
+
+-Some noise remains in the "Player" column
+### data.world link:
+https://data.world/ethanhowat/nba-scoring-leaders
